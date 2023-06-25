@@ -1,0 +1,23 @@
+$theme-colors: (
+    "primary": hsl(0, 0%, 8%),
+    "secondary":hsl(0, 0%, 98%),
+    "dark":hsl(0, 0%, 41%)
+);
+
+$h1-font-size: 5em;
+
+$spacer: 1rem;
+$spacers: (
+    0: 0,
+    1: $spacer * 4,
+    2: $spacer * 0.5,
+    3: $spacer * 4,
+    4: $spacer * 1,
+    5: $spacer * 10,
+);
+
+$opacity: (
+    property: opacity,
+    values: (50: .30,
+    )
+);
