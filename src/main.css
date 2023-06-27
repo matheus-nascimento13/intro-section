@@ -11564,4 +11564,10 @@ textarea.form-control-lg {
 
 body {
   min-height: 100vh;
+}
+
+@media screen and (min-width: 770px) {
+  .container {
+    display: flex;
+  }
 }/*# sourceMappingURL=main.css.map */
